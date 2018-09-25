@@ -1,21 +1,14 @@
 {
-  "name": "advanpro-game-hilo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lib/advanpro-game-hilo.js",
+  "name": "hilo-game-package",
+  "version": "1.0.1",
+  "description": "package version of hilo game lib",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib"
   },
-  "publishConfig": {
-    "registry": "https://repo.advanpro.cn/repository/npm-publish/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git.advanpro.cn/web/advanpro-game-hilo.git"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "chimingphang",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
